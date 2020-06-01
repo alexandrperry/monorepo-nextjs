@@ -1,0 +1,51 @@
+{
+  "name": "kiwi",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next ",
+    "build": "next build",
+    "postbuild": "next-on-netlify",
+    "start": "next start",
+    "export": "next export",
+    "test": "yarn --passWithNoTests",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@kiwicom/orbit-components": "^0.85.2",
+    "@kiwicom/orbit-design-tokens": "^0.10.0",
+    "@svgr/webpack": "^5.3.1",
+    "@types/classnames": "^2.2.10",
+    "@types/isomorphic-fetch": "0.0.35",
+    "@types/mobx-devtools-mst": "^0.9.7",
+    "@types/next": "^9.0.0",
+    "@types/nprogress": "^0.2.0",
+    "@types/react-custom-scrollbars": "^4.0.6",
+    "@zeit/next-typescript": "^1.1.1",
+    "axios": "^0.19.2",
+    "components-library-keks": "0.0.1",
+    "dotenv": "^8.2.0",
+    "dotenv-load": "^2.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "mobx": "^5.15.4",
+    "mobx-state-tree": "^3.16.0",
+    "next": "latest",
+    "next-env": "^1.1.1",
+    "next-fonts": "^1.1.0",
+    "next-on-netlify": "^1.2.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-remove-scroll": "^2.3.0",
+    "sass": "^1.26.5",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^5.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "dotenv-webpack": "^1.7.0"
+  },
+  "license": "ISC"
+}
